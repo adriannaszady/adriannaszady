@@ -182,13 +182,13 @@ p {
         background-color: white;
     }
     .skills {
-        background-color: #f0e6d780;
         padding: 10px 30px 10px 40px;
         margin: 0 auto;
-        width: 45%;
+        width: 100%;
         text-align: left;
         border-radius: 12px;
         margin-bottom: 10px;
+        background:rgb(177, 208, 209, 0.6);
     }
     h2, h3 {
         font-size: 22px;
@@ -209,6 +209,7 @@ p {
     }
     .contact {
         display: block;
+        background:rgb(177, 208, 209, 0.6);
         }
     .contact i, .contact a {
         display:flex;
@@ -226,17 +227,23 @@ p {
         border-radius: 5px;
     }
     .contact img{
-        width: 112px;
-        height:146px;
+        width: 152px;
+        height:196px;
     }
     .contact-data{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         }
+    .contact-links{
+            padding-top:30px;
+     }
     .contact a:hover{
         background-color: rgb(100, 216, 201);
         color:rgb(131, 145, 143)
+    }
+    .footer {
+        background-color: none;
     }
    
 @media only screen and (min-width:775px) {
@@ -310,17 +317,19 @@ p {
         margin: 2% 20%;
         border-radius: 15px;
         height: 50%;
-        background:rgb(177, 208, 209, 0.6);
         padding-top: 10px;
     }
     p {
         display: flex;
         flex-wrap: wrap;
         font-size: 1.0em;
+        width:100%;
         padding: 30px;
         border-radius: 15px;
         line-height: 25px;
         height: 100%;
+        background:rgb(177, 208, 209, 0.6);
     }
-  
+    .footer {
+        background:rgb(177, 208, 209, 0.0);    }
 }
