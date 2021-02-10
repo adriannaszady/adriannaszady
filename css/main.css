@@ -135,6 +135,7 @@ section {
     margin: 5% auto;
     border-radius: 15px;
     height: 50%;
+    padding-top: 10px;
 }
 p {
     font-size: 1.0em;
@@ -142,10 +143,102 @@ p {
     border-radius: 15px;
     line-height: 25px;
     }
-
- 
-
-
+    table {
+        margin:0 auto;
+        background:cadetblue;
+        text-align: center;
+        border-radius: 12px;
+        width: 96%;
+    }
+    table td {
+        font-size: 1em;
+        padding: 2px;
+    }
+    table th{
+        border-right: 2px dotted white;
+        background-color: rgb(100, 216, 201);
+        color: white;
+        font-size: 1.2em;
+        font-weight: bold;
+        padding: 3px;
+    }
+    table tr th:first-child {
+        border-radius: 12px 0 0 0;
+    }
+    table tr th:last-child {
+        border-radius: 0 12px 0 0;
+        border-right: none;
+    }
+    table tr:last-child > td:first-child {
+        border-radius: 0 0 0 12px;
+    }
+    table tr:last-child td:last-child {
+        border-radius: 0 0 12px 0;
+    }
+    table tr:nth-child(odd) {
+        background-color: #ded6c980;
+    }
+    table tr:hover {
+        background-color: white;
+    }
+    .skills {
+        background-color: #f0e6d780;
+        padding: 10px 30px 10px 40px;
+        margin: 0 auto;
+        width: 45%;
+        text-align: left;
+        border-radius: 12px;
+        margin-bottom: 10px;
+    }
+    h2, h3 {
+        font-size: 22px;
+        text-align: center;
+    }
+    h2{
+        margin:0 auto;
+        color: white;
+        font-weight: bold;
+    }
+    .skills ul{
+        padding: 8px;
+    }
+    .contact h2{
+        width:100%;
+        text-align: center;
+        padding-bottom:15px;
+    }
+    .contact {
+        display: block;
+        }
+    .contact i, .contact a {
+        display:flex;
+        justify-content: center;
+        text-decoration: none;
+        color:rgb(255, 255, 255);
+    }
+    .contact i{
+        padding-right:5px;
+    }
+    .contact a{
+        width:25%;
+        min-width: 240px;
+        padding:10px 5px;
+        border-radius: 5px;
+    }
+    .contact img{
+        width: 112px;
+        height:146px;
+    }
+    .contact-data{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        }
+    .contact a:hover{
+        background-color: rgb(100, 216, 201);
+        color:rgb(131, 145, 143)
+    }
+   
 @media only screen and (min-width:775px) {
     html, body {
         margin: 0;
@@ -216,8 +309,9 @@ p {
         background: none;
         margin: 2% 20%;
         border-radius: 15px;
-        height: 65%;
+        height: 50%;
         background:rgb(177, 208, 209, 0.6);
+        padding-top: 10px;
     }
     p {
         display: flex;
@@ -226,7 +320,7 @@ p {
         padding: 30px;
         border-radius: 15px;
         line-height: 25px;
-        height: 65%;
+        height: 100%;
     }
-   
+  
 }
