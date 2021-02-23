@@ -121,7 +121,7 @@ img {
     background:rgb(177, 208, 209, 0.8);
     height: 80vh;
     z-index: 100;
-    padding-top: 15%;
+    padding-top: 25%;
 }
 table {
     margin:0 auto;
@@ -278,6 +278,12 @@ h2{
     section {
         width: 60%;
         margin: 0 auto;
+    }
+    #contact, #journeys, #skills, #experience, #education, #home {
+        background:rgb(177, 208, 209, 0.8);
+        height: 80vh;
+        z-index: 100;
+        padding-top: 15%;
     }
 }
 
