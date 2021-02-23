@@ -48,6 +48,7 @@ body {
     background-color:rgb(2, 34, 34);
 }
 header {
+    position:fixed;
     display: flex;
     flex-flow: row;
     background-color: cadetblue;
@@ -57,6 +58,10 @@ header {
     height: 20vh;
     min-height: 120px;
     z-index: 120;
+}
+#main-content {
+    margin-top: 20vh;
+    min-height: 420px;
 }
 #logo {
     display: flex;
@@ -107,54 +112,16 @@ img {
     color: white;
     justify-content: center;
 }
-section {
-    margin: 1%;
-    padding: 10px;
+
+#skills ul{
+    padding: 25px;
 }
-#home {
+
+#contact, #journeys, #skills, #experience, #education, #home {
     background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
     height: 80vh;
     z-index: 100;
-}
-#education {
-    background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
-    height: 100vh;
-    z-index: 100;
-}
-#skills {
-    background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
-    height: 100vh;
-    z-index: 100;
-    padding: 10px 30px 10px 40px;
-    margin: 0 auto;
-    width: 100%;
-    text-align: left;
-    border-radius: 12px;
-    margin-bottom: 10px;
-}
-#skills ul{
-    padding: 8px;
-}
-#experience {
-    background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
-    height: 100vh;
-    z-index: 100;
-}
-#journeys {
-    background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
-    height: 100vh;
-    z-index: 100;
-}
-#contact {
-    background:rgb(177, 208, 209, 0.8);
-    border-radius: 15px;
-    height: 100vh;
-    z-index: 100;
+    padding-top: 15%;
 }
 table {
     margin:0 auto;
@@ -307,6 +274,10 @@ h2{
         height: 100%;
         box-sizing: border-box;
         background-color: rgb(2, 34, 34);
+    }
+    section {
+        width: 60%;
+        margin: 0 auto;
     }
 }
 
